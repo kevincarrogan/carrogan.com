@@ -12,6 +12,8 @@
     <title>{+title}carrogan.com{/title}</title>
 
     <link rel="stylesheet" href="css/app.css" />
+
+    <script src="components/modernizr/modernizr.js"></script>
 </head>
 <body>
 
