@@ -1,0 +1,8 @@
+{
+    "middleware": {
+        "session": {
+            "module": "memory",
+            "secret": "c4c442105b20209d11a7bbc76e0c5a89c588a031"
+        }
+    }
+}
