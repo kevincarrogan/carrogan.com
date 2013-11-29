@@ -4,7 +4,7 @@
 module.exports = function (server) {
 
     server.get('/', function (req, res) {
-        var model = { name: 'carrogan-com' };
+        var model = {};
         
         res.render('index', model);
         
