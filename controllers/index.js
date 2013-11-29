@@ -4,9 +4,9 @@
 module.exports = function (server) {
 
     server.get('/', function (req, res) {
-        var model = {};
+        var ctx = {};
         
-        res.render('index', model);
+        res.render('index', ctx);
         
     });
 
