@@ -73,6 +73,12 @@ module.exports = function (grunt) {
                 ui: 'bdd',
                 reporter: 'spec'
             }
+        },
+        watch: {
+            scripts: {
+                files: ['**/*.scss'],
+                tasks: ['sass']
+            }
         }
     });
 
@@ -82,6 +88,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-mocha-cli');
     grunt.loadNpmTasks('grunt-dustjs');
+    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadTasks('./node_modules/makara/tasks/');
 
     grunt.registerTask('i18n', ['clean', 'makara', 'dustjs', 'clean:tmp']);
