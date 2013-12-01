@@ -1,4 +1,13 @@
 {>"layouts/master" /}
 
+{< body_classes}
+home
+{/body_classes}
+
 {<main}
+<div class="names">
+    <a href="//kevin.carrogan.com" class="kevin-name">Kevin</a>
+    <span class="ampersand">&</span>
+    <a href="//ria.carrogan.com" class="ria-name">Ria</a>
+</div>
 {/main}

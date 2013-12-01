@@ -1,0 +1,23 @@
+@mixin visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+@mixin image-replace {
+    background-image: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-index: -9999px;
+    &:before {
+        content: "";
+        display: block;
+        height: 150%;
+        width: 0;
+    }
+}

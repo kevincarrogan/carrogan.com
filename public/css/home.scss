@@ -1,0 +1,30 @@
+.names {
+    display: inline-block;
+    margin: auto 0;
+    text-align: center;
+    width: 580px;
+}
+
+.ampersand {
+    @include visuallyhidden;
+}
+
+.kevin-name, .ria-name {
+    @include image-replace;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 20px;
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+}
+
+.kevin-name {
+    background-image: url(/images/kevin.jpeg);
+    border-color: #333;
+}
+
+.ria-name {
+    background-image: url(/images/ria.jpeg);
+    border-color: #ccc;
+}
