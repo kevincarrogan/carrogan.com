@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "grunt test",
-    "start": "node index.js"
+    "start": "nodemon"
   },
   "engines": {
     "node": "~0.10.0"
@@ -19,7 +19,8 @@
     "sass": "~0.5.0",
     "dustjs-linkedin": "~2.0.3",
     "dustjs-helpers": "~1.1.1",
-    "makara": "~0.3.0"
+    "makara": "~0.3.0",
+    "nodemon": "~0.7.10"
   },
   "devDependencies": {
     "mocha": "~1.10.0",
