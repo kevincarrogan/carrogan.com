@@ -20,11 +20,13 @@
 }
 
 .kevin-name {
-    background-image: url(/images/kevin.jpeg);
+    background: url(/images/kevin.jpeg) -50px -60px;
+    background-size: 350px;
     border-color: #333;
 }
 
 .ria-name {
-    background-image: url(/images/ria.jpeg);
+    background: url('/images/ria.jpeg') left -125px;
+    background-size: 325px;
     border-color: #ccc;
 }
