@@ -7,6 +7,10 @@ home
 {<main}
 <ul class="us">
     <li>Ria</li>
-    <li><a href="//kevin.carrogan.com">Kevin</a></li>
+    <li><a href="http://kevin.carrogan.com">Kevin</a></li>
+</ul>
+
+<ul class="additional-links">
+    <li><a href="http://www.riaandkevin.com">Wedding Invite</a></li>
 </ul>
 {/main}
