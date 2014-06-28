@@ -1,7 +1,6 @@
 .DS_Store
 .idea/
-.build/
+.sass-cache/
 node_modules/
 *.iml
-/.*
 !/.gitignore
