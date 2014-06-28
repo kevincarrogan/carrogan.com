@@ -10,3 +10,13 @@ header h1 {
     font-weight: 300;
     text-transform: uppercase;
 }
+
+$link-colour: #5b92b5;
+
+a {
+    color: $link-colour;
+}
+
+a:hover {
+    color: darken($link-colour, 20%);
+}

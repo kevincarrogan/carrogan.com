@@ -5,9 +5,8 @@ home
 {/body_classes}
 
 {<main}
-<h1 class="names">
-    <a href="//kevin.carrogan.com" class="kevin-name">Kevin</a>
-    <span class="ampersand">&</span>
-    <a href="//ria.carrogan.com" class="ria-name">Ria</a>
-</h1>
+<ul class="us">
+    <li>Ria</li>
+    <li><a href="//kevin.carrogan.com">Kevin</a></li>
+</ul>
 {/main}
