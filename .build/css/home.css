@@ -2,13 +2,16 @@
   margin: 0 auto;
   width: 35rem; }
 .home ul {
+  font-size: 3.5rem;
   font-weight: 300;
   padding: 0;
   list-style: none; }
 .home .us {
   border-bottom: 1px solid #ccc;
-  font-size: 3.5rem;
   margin-bottom: 3rem;
   padding-bottom: 3rem; }
+  .home .us h1 {
+    font-size: 3.5rem;
+    font-weight: 300; }
 .home .additional-links {
   font-size: 1.5rem; }

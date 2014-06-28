@@ -619,6 +619,7 @@ header h1 {
   color: #2a2a2a;
   font-size: 5rem;
   font-weight: 300;
+  margin: 3rem 0;
   text-transform: uppercase; }
 
 a {
@@ -632,13 +633,26 @@ a:hover {
   margin: 0 auto;
   width: 35rem; }
 .home ul {
+  font-size: 3.5rem;
   font-weight: 300;
+  margin: 0;
   padding: 0;
   list-style: none; }
 .home .us {
   border-bottom: 1px solid #ccc;
-  font-size: 3.5rem;
   margin-bottom: 3rem;
   padding-bottom: 3rem; }
+  .home .us article {
+    margin-bottom: 1.5rem; }
+  .home .us h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 0; }
+  .home .us .links {
+    font-size: 1.5rem; }
+    .home .us .links li {
+      display: inline-block;
+      margin-right: 1rem; }
 .home .additional-links {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  margin-bottom: 3rem; }

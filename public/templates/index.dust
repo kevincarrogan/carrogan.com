@@ -5,10 +5,27 @@ home
 {/body_classes}
 
 {<main}
-<ul class="us">
-    <li>Ria</li>
-    <li><a href="http://kevin.carrogan.com">Kevin</a></li>
-</ul>
+<section class="us">
+    <article>
+        <h1>Ria</h1>
+        <ul class="links">
+            <li><a href="http://twitter.com/riacarrogan">Twitter</a></li>
+            <li><a href="http://instagram.com/riacarrogan">Instagram</a></li>
+            <li><a href="http://linkedin.com/in/riacarrogan">LinkedIn</a></li>
+            <li><a href="http://www.pinterest.com/riacarrogan/">Pinterest</a></li>
+        </ul>
+    </article>
+
+    <article>
+        <h1><a href="http://kevin.carrogan.com">Kevin</a></h1>
+        <ul class="links">
+            <li><a href="http://twitter.com/kevincarrogan">Twitter</a></li>
+            <li><a href="http://github.com/kevincarrogan">Github</a></li>
+            <li><a href="http://linkedin.com/in/kevincarrogan">LinkedIn</a></li>
+            <li><a href="http://www.reddit.com/user/kevindmorgan/">Reddit</a></li>
+        </ul>
+    </article>
+</section>
 
 <ul class="additional-links">
     <li><a href="http://www.riaandkevin.com">Wedding Invite</a></li>
