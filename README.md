@@ -1,3 +1,3 @@
-# carrogan.com
+# carrogan-com
 
 carrogan.com

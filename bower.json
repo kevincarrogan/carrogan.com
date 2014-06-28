@@ -1,8 +1,0 @@
-{
-  "name": "carrogancom",
-  "version": "0.0.1",
-  "dependencies": {
-    "requirejs": "~2.1.9",
-    "modernizr": "~2.7.0"
-  }
-}

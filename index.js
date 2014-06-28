@@ -2,32 +2,19 @@
 
 
 var kraken = require('kraken-js'),
-    app = {};
+    app = require('express')(),
+    options = {
+        onconfig: function (config, next) {
+            //any config setup/overrides here
+            next(null, config);
+        }
+    },
+    port = process.env.PORT || 8000;
 
 
-app.configure = function configure(nconf, next) {
-    // Fired when an app configures itself
-    next(null);
-};
+app.use(kraken(options));
 
 
-app.requestStart = function requestStart(server) {
-    // Fired at the beginning of an incoming request
-};
-
-
-app.requestBeforeRoute = function requestBeforeRoute(server) {
-    // Fired before routing occurs
-};
-
-
-app.requestAfterRoute = function requestAfterRoute(server) {
-    // Fired after routing occurs
-};
-
-
-kraken.create(app).listen(function (err) {
-    if (err) {
-        console.error(err);
-    }
+app.listen(port, function (err) {
+    console.log('[%s] Listening on http://localhost:%d', app.settings.env, port);
 });

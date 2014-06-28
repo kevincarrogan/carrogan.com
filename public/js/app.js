@@ -1,8 +1,12 @@
 'use strict';
 
 
+requirejs.config({
+    paths: {}
+});
 
-require(['config' /*, Dependencies */], function (config) {
+
+require([/* Dependencies */], function () {
 
     var app = {
         initialize: function () {
@@ -13,5 +17,3 @@ require(['config' /*, Dependencies */], function (config) {
     app.initialize();
 
 });
-
-
