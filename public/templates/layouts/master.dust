@@ -11,7 +11,7 @@
     <meta name="description" content="Home of the Carrogans">
     <meta property="og:title" content="Home of the Carrogans">
     <meta property="og:site_name" content="carrogan.com">
-    <meta property="og:description" content="Home of the Carrogans"
+    <meta property="og:description" content="Home of the Carrogans">
 
     <title>{+title}carrogan.com{/title}</title>
 
