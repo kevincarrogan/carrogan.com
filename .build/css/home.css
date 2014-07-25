@@ -1,6 +1,6 @@
 .home main {
   margin: 0 auto;
-  width: 35rem; }
+  width: 90%; }
 .home ul {
   font-weight: 300;
   margin: 0;
@@ -16,13 +16,17 @@
     font-size: 3rem;
     font-weight: 300;
     margin: 0; }
-  .home .us .links {
-    font-size: 1.5rem; }
-    .home .us .links li {
-      display: inline-block;
-      margin-right: 1.5rem; }
-    .home .us .links li:last-of-type {
-      margin-right: 0; }
+.home .links {
+  font-size: 1.5rem; }
 .home .additional-links {
   font-size: 1.5rem;
   margin-bottom: 3rem; }
+
+@media only screen and (min-width: 35em) {
+  .home main {
+    width: 35rem; }
+  .links li {
+    display: inline-block;
+    margin-right: 1.5rem; }
+  .links li:last-of-type {
+    margin-right: 0; } }

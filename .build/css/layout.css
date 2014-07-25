@@ -5,7 +5,7 @@ body {
 
 header h1 {
   color: #2a2a2a;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 300;
   margin: 3rem 0;
   text-align: center;
@@ -17,3 +17,7 @@ a {
 
 a:hover {
   color: #355d75; }
+
+@media only screen and (min-width: 35em) {
+  header h1 {
+    font-size: 5rem; } }
