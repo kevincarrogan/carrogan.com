@@ -17,7 +17,14 @@
     font-weight: 300;
     margin: 0; }
 .home .links {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  margin-top: 1.5rem; }
+  .home .links li:after {
+    content: "·";
+    display: block;
+    font-weight: bold; }
+  .home .links li:last-of-type:after {
+    display: none; }
 .home .additional-links {
   font-size: 1.5rem;
   margin-bottom: 3rem; }
@@ -25,8 +32,12 @@
 @media only screen and (min-width: 35em) {
   .home main {
     width: 35rem; }
-  .links li {
-    display: inline-block;
-    margin-right: 1.5rem; }
-  .links li:last-of-type {
-    margin-right: 0; } }
+  .home .links {
+    margin-top: 0; }
+    .home .links li {
+      display: inline-block;
+      margin-right: 1.5rem; }
+      .home .links li:after {
+        content: none; }
+    .home .links li:last-of-type {
+      margin-right: 0; } }

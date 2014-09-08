@@ -24,6 +24,17 @@
     }
     .links {
         font-size: 1.5rem;
+        margin-top: 1.5rem;
+        li {
+            &:after {
+                content: "·";
+                display: block;
+                font-weight: bold;
+            }
+            &:last-of-type:after {
+                display: none;
+            }
+        }
     }
     .additional-links {
         font-size: 1.5rem;
@@ -36,14 +47,18 @@
         main {
             width: 35rem;
         }
-    }
-    .links {
-        li {
-            display: inline-block;
-            margin-right: 1.5rem;
-        }
-        li:last-of-type {
-            margin-right: 0;
+        .links {
+            margin-top: 0;
+            li {
+                display: inline-block;
+                margin-right: 1.5rem;
+                &:after {
+                    content: none;
+                }
+            }
+            li:last-of-type {
+                margin-right: 0;
+            }
         }
     }
 }
