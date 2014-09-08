@@ -21,8 +21,7 @@
   margin-top: 1.5rem; }
   .home .links li:after {
     content: "·";
-    display: block;
-    font-weight: bold; }
+    display: block; }
   .home .links li:last-of-type:after {
     display: none; }
 .home .additional-links {

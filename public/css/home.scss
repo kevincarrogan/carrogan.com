@@ -29,7 +29,6 @@
             &:after {
                 content: "·";
                 display: block;
-                font-weight: bold;
             }
             &:last-of-type:after {
                 display: none;
