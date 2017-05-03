@@ -1,1 +1,0 @@
-requirejs.config({paths:{}}),require([],function(){var e={initialize:function(){}};e.initialize()}),define("app",function(){});
