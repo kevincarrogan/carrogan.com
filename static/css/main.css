@@ -2,5 +2,19 @@ html {
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
+    height: 100%;
     text-rendering: optimizeLegibility;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    width: 600px;
+}
+
+body > h1 {
+    display: none;
 }
