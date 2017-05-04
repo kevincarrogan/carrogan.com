@@ -6,6 +6,10 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -17,4 +21,23 @@ body {
 
 body > h1 {
     display: none;
+}
+
+.person {
+    margin-bottom: 20px;
+}
+
+.person h1 {
+    margin: 0;
+}
+
+.person ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.person li {
+    margin-right: 10px;
 }
