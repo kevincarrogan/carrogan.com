@@ -1,0 +1,6 @@
+html {
+    font-family: HelveticaNeue;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
