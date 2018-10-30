@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "test": "grunt test",
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "kraken-js": "^1.0.1",
@@ -18,7 +20,8 @@
     "requirejs": "~2.1.14",
     "dustjs-helpers": "~1.2.0",
     "localizr": "~0.1.0",
-    "node-sass": "~0.8.6"
+    "node-sass": "~3.0.0",
+    "snyk": "^1.105.0"
   },
   "devDependencies": {
     "mocha": "^1.18.0",
@@ -40,5 +43,6 @@
     "css": "sass",
     "js": "requirejs",
     "task": "grunt"
-  }
+  },
+  "snyk": true
 }
