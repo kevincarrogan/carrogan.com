@@ -18,7 +18,7 @@
     "requirejs": "~2.1.14",
     "dustjs-helpers": "~1.2.0",
     "localizr": "~0.1.0",
-    "node-sass": "~0.8.6"
+    "node-sass": "~4.11.0"
   },
   "devDependencies": {
     "mocha": "^1.18.0",
